@@ -6,23 +6,13 @@
 # Date: 26/1/2026
 # Class: ECS/E2
 
-print("Salary calculator")
-
-BS = float(input("Enter the basic salary: "))
-
-print()
-print("Salary Details:")
-
-print("Basic Salary:\t", BS)
-
-DA = 0.70 * BS
-print("DA (70%):\t", DA)
-
-TA = 0.30 * BS
-print("TA (30%):\t", TA)
-
-HRA = 0.10 * BS
-print("HRA (10%):\t", HRA)
-
-GrossSalary = BS + DA + TA + HRA
-print("Gross Salary:\t", GrossSalary)
+print("Salary  Details:")
+BS = float(input("Basic Salary: "))
+DA = 0.70*BS
+TA = 0.3*BS
+HRA = 0.10*BS
+GS = BS+DA+TA+HRA
+print(f"DA(70%): {DA: .1f} ")
+print(f"TA(30%): {TA: .1f} ")
+print(f"HRA(10%): {HRA: .1f} ")
+print(f"Gross Salary: {GS: .1f} ")
