@@ -3,8 +3,7 @@
 # Coder: Shamal
 # Date: 26/1/2026
 # Class: ECS/E2
-print("Salary Calculator")
-BS = float(input("Enter the basic salary: "))
+BS = float(input))
 
 DA = 0.7 * BS
 TA = 0.3 * BS
