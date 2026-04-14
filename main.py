@@ -5,13 +5,13 @@
 # Class: ECS/E2
 print("Salary  Details:")
 BS = float(input("Basic Salary:5000 "))
-DA = 70*BS
-TA = 30*BS
-HRA = 10*BS
+DA = 0.7*BS
+TA = 0.3*BS
+HRA = 0.1*BS
 GS = BS+DA+TA+HRA
-print(f"DA(70%): {DA: .1f} ")
-print(f"TA(30%): {TA: .1f} ")
-print(f"HRA(10%): {HRA: .1f} ")
-print(f"Gross Salary: {GS: .1f} ")
+print(f"DA(70%): {DA: .1f}")
+print(f"TA(30%): {TA: .1f}")
+print(f"HRA(10%): {HRA: .1f}")
+print(f"Gross Salary: {GS: .1f}")
 
 
