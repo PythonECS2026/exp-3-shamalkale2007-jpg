@@ -4,7 +4,7 @@
 # Date: 26/1/2026
 # Class: ECS/E2
 print("Salary  Details:")
-BS = float(input("Basic Salary: "))
+BS = float(input("Basic Salary:5000 "))
 DA = 0.70*BS
 TA = 0.3*BS
 HRA = 0.10*BS
