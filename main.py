@@ -11,8 +11,8 @@ HRA = 0.1 * BS
 GS = BS + DA + TA + HRA
 
 print("Salary Details:")
-print(f"Basic Salary:\t{BS}")
-print(f"DA (70%):\t{DA}")
-print(f"TA (30%):\t{TA}")
-print(f"HRA (10%):\t{HRA}")
-print(f"Gross Salary:\t{GS}")
+print("Basic Salary:\t\t{:.1f}".format(BS))
+print("DA (70%):\t\t{:.1f}".format(DA))
+print("TA (30%):\t\t{:.1f}".format(TA))
+print("HRA (10%):\t\t{:.1f}".format(HRA))
+print("Gross Salary:\t\t{:.1f}".format(GS))
