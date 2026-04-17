@@ -10,10 +10,12 @@ DA = 0.7 * BS
 TA = 0.3 * BS
 HRA = 0.1 * BS
 GS = BS + DA + TA + HRA
+print(GS)
 
 print("Salary Details:")
 print("Basic Salary:\t\t{:.1f}".format(BS))
 print("DA (70%):\t\t{:.1f}".format(DA))
 print("TA (30%):\t\t{:.1f}".format(TA))
 print("HRA (10%):\t\t{:.1f}".format(HRA))
-print("Gross Salary:\t\t{:.1f}".format(GS))
+print("Gross Salary:\t\t{:.1f}".format(GS)
+      
