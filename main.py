@@ -3,6 +3,7 @@
 # Coder: Shamal
 # Date: 26/1/2026
 # Class: ECS/E2
+
 BS = float(input())
 
 DA = 0.7 * BS
